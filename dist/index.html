@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест задание для Инго Банк</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Автоподгрузка/Подчистка Контейнера</h1>
+            <p>ООП реализация с автоматическим управлением DOM элементами</p>
+        </div>
+
+        <div id="blocks-container" class="blocks-container"></div>
+
+        <div class="controls">
+            <button id="add-btn" class="btn btn-add">+ Добавить</button>
+            <button id="remove-btn" class="btn btn-remove">- Удалить</button>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-label">Всего блоков</div>
+                <div id="total-count" class="stat-value"></div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Видимых блоков</div>
+                <div id="visible-count" class="stat-value"></div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Максимум видимых</div>
+                <div id="max-count" class="stat-value"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
